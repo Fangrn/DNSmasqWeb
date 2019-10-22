@@ -7,5 +7,6 @@ __all__ = [
     'xk_login',
     'xk_public',
     'xk_test',
-    'xk_users'
+    'xk_users',
+    'xk_dyn_dns'
 ]

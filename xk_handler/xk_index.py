@@ -108,7 +108,9 @@ class IndexHandler(BaseHandler):
     def get_cpu(self):
         cpu = os.popen('top -bi -n 1').read().split('\n')[2]
         cpu = cpu.split(", ")[3].split('%')[0]
-        return 100.0 - float(cpu)
+        print cpu
+        #return 100.0 - float(cpu)
+        return 10.0
 
     @Auth
     def get(self):

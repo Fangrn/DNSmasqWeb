@@ -10,6 +10,7 @@ HandlersURL = [
     (r"/dashboard/?", xk_index.IndexHandler),
     (r"/dns/domain", xk_dns.DnsDomainHandler),
     (r"/dns/record", xk_dns.DnsRecordHandler),
+    (r"/dns/dyndns", xk_dyn_dns.DynHandler),
     (r"/dhcp/pool", xk_dhcp.DhcpPoolHandler),
     (r"/dhcp/host", xk_dhcp.DhcpHostHandler),
     (r"/public/api", xk_public.PublicAPIHandler),
